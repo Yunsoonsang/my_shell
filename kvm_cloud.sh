@@ -249,7 +249,7 @@ function create {
 function upload_database {
         echo -e "\t데이터베이스 업데이트 진행"
         echo -e "\t저장할 데이터 name=$1, flavor=$2, os=$3, node=$4"
-        mysql rapadb -u rapa -prapa << EOF
+        mysql kakaodb -u rep -ptest123 << EOF
 insert into instance_info(name, flavor, os, node) values('$1', '$2', '$3', '$4');
 EOF
         echo -e "\t데이터베이스 업데이트 완료"
@@ -257,7 +257,7 @@ EOF
 function delete_database {
         echo -e "\t데이터베이스 데이터 삭제 진행"
         echo -e "\t삭제할 인스턴스 이름 : $1"
-        mysql rapadb -u rapa -prapa << EOF
+        mysql kakaodb -u rep -ptest123 << EOF
 delete from instance_info where name = '$1';
 EOF
 }
