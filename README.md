@@ -3,8 +3,8 @@
 ## 사용된 노드
 - **Control:** `kvm_cloud.sh` (서비스 실행), Zabbix-Server, MariaDB (Master)
 - **Backup:** MariaDB (Slave)
-- **Compute1, 2:** KVM, OVS & GRE Tunering Overlay Network 구성
-- **Storage:** RAID 1 구성, NFS Server
+- **Compute1, 2:** KVM, OVS & GRE Tunering Overlay Network 구성, Zabbix-Agent
+- **Storage:** RAID 1 구성, NFS Server, Zabbix-Agent
 
 ## 이중화(High Availability) 구성
 ### Storage (NFS, RAID 1)
