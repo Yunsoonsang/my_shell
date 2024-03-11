@@ -15,8 +15,7 @@
 - Control과 Master-Slave DB Replication을 구성하여 DB에 대한 이중화를 구현했습니다.
 
 ## 쉘 코드
-- [kvm_cloud.sh](./kvm_cloud.sh): KVM 클라우드 서비스 실행을 위한 쉘 코드
-- [Control Shell Code](https://github.com/Yunsoonsang/my_shell/blob/main/kvm_cloud.sh)
+- [Control Shell Code](./kvm_cloud.sh)
 
 ## 프로젝트 프레젠테이션
-- [PDF](KAKAO Cloud Enginner 4 - KVM Service.pdf)
+- [PDF](./KAKAO Cloud Enginner 4 - KVM Service.pdf)
